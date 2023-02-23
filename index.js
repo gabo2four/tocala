@@ -1,5 +1,4 @@
 import { app } from "./src/app";
-const mongoose = require("mongoose");
 require("dotenv").config();
 
 app.listen(3001, () =>
