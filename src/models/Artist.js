@@ -1,10 +1,25 @@
 import {Schema, model} from "mongoose"
 
-const customerSchema = new Schema({
+const artistSchema = new Schema({
+    type:{
+        type:String
+    },
     name:{
         type:String
     },
-    lastname:{
+    description:{
+        type:String
+    },
+    number:{
+        type:String
+    },
+    departament:{
+        type:String
+    },
+    province:{
+        type:String
+    },
+    district:{
         type:String
     },
     email:{
@@ -19,4 +34,4 @@ const customerSchema = new Schema({
 }
 )
 
-export default model("Customer",customerSchema)
+export default model("Artist",artistSchema)
