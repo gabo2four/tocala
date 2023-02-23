@@ -3,6 +3,6 @@ import * as Controller from "./controller";
 
 const servicesRouter = Router();
 
-servicesRouter.route("/").get(Controller.getInfo);
+servicesRouter.route("/").get(Controller.getArtists);
 
 export default servicesRouter;
